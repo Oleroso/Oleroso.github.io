@@ -10,17 +10,17 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Courier New",monospace;;
   color: #272829;
 }
 
 a {
-  color: #0563bb;
+  color: #ed0606;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #ed0606;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #bb0539;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #0678e3;
+  background: #ed0606;
   color: #fff;
 }
 
@@ -85,7 +85,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #ed0606;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -149,13 +149,13 @@ h6 {
 * Desktop Navigation 
 */
 .nav-menu {
-  padding: 0;
+  padding: 1;
   display: block;
 }
 
 .nav-menu * {
-  margin: 0;
-  padding: 0;
+  margin: 2;
+  padding: 2;
   list-style: none;
 }
 
@@ -173,10 +173,10 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
-  border-radius: 50px;
+  border-radius: 60px;
   background: #f2f3f5;
   height: 56px;
-  width: 100%;
+  width: 120%;
   overflow: hidden;
   transition: 0.3s;
 }
@@ -211,7 +211,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: #ed0606;
 }
 
 .nav-menu a:hover span,
@@ -265,7 +265,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #0563bb;
+  background-color: #ed0606;
 }
 
 /*--------------------------------------------------------------
@@ -311,7 +311,7 @@ h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #ed0606;
   letter-spacing: 1px;
 }
 
@@ -329,7 +329,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #ed0606;
 }
 
 @media (max-width: 992px) {
@@ -340,12 +340,14 @@ h6 {
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+    font-weight: bold;
   }
 
   #hero p {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+    font-weight: bold;
   }
 }
 
@@ -355,6 +357,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  font-weight: bold;
 }
 
 .section-title {
@@ -364,7 +367,7 @@ section {
 
 .section-title h2 {
   font-size: 32px;
-  font-weight: bold;
+  
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -389,7 +392,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #ed0606;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -425,7 +428,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #0563bb;
+  color: #ed0606;
   line-height: 0;
 }
 
@@ -451,7 +454,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #ed0606;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -508,7 +511,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #ed0606;
 }
 
 /*--------------------------------------------------------------
@@ -525,7 +528,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #ed0606;
   position: relative;
 }
 
@@ -535,7 +538,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #ed0606;
   margin-bottom: 10px;
 }
 
@@ -553,7 +556,7 @@ section {
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .resume .resume-item:last-child {
@@ -569,7 +572,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #ed0606;
 }
 
 /*--------------------------------------------------------------
@@ -604,7 +607,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #ed0606;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -750,11 +753,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #ed0606;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #ed0606;
 }
 
 .portfolio-details .portfolio-info {
@@ -952,7 +955,7 @@ section {
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
-  font-weight: bold;
+
   margin: 10px 0 5px 0;
   color: #111;
 }
@@ -997,11 +1000,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #ed0606;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #ed0606;
 }
 
 @media (min-width: 992px) {
@@ -1020,7 +1023,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #ed0606;
   float: left;
   width: 44px;
   height: 44px;
@@ -1055,7 +1058,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #ed0606;
   color: #fff;
 }
 
@@ -1126,7 +1129,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0563bb;
+  background: #ed0606;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1182,7 +1185,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #ed0606;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
