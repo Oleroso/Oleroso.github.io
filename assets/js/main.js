@@ -5,6 +5,13 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+function changeImage() {
+  if (document.getElementById("345").src == "assets/img/portfolio/lia-den-YN5YdjblYHA-unsplash.jpg"){
+      document.getElementById("345").src = "assets/img/portfolio/portfolio-2.jpg";
+  } else {
+      document.getElementById("345").src = "assets/img/portfolio/lia-den-YN5YdjblYHA-unsplash.jpg";
+  }
+}
 (function() {
   "use strict";
 
