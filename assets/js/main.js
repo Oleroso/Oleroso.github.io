@@ -22,7 +22,7 @@
   }
   let i=0;
   const gallery = [];
-  gallery.push("assets/img/portfolio/portfolio-1.jpg","assets/img/portfolio/portfolio-2.jpg","assets/img/portfolio/portfolio-3.jpg","assets/img/portfolio/portfolio-4.jpg")
+  gallery.push("assets/img/portfolio/lia-den-YN5YdjblYHA-unsplash.jpg","assets/img/portfolio/portfolio-2.jpg","assets/img/portfolio/portfolio-3.jpg","assets/img/portfolio/portfolio-4.jpg")
   const img1 = document.getElementById("345");
   const but1 = document.getElementById("346");
   img1.addEventListener("click", function () {
