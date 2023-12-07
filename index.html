@@ -39,39 +39,7 @@
 </head>
 
 <body>
-  <h4>
-  <math xmlns="http://www.w3.org/1998/Math/MathML">
   
-    <mi mathvariant="normal">&#x393;</mi>
-  <mo stretchy="false">(</mo>
-  <mi>z</mi>
-  <mo stretchy="false">)</mo>
-  <mo>=</mo>
-  <msubsup>
-    <mo data-mjx-texclass="OP">&int;</mo>
-    <mi>0</mi>
-    <mi>&infin;</mi>
-  </msubsup>
-  <msup>
-  <mi>t</mi>
-  <mrow>
-  <mi>z</mi>
-  <mo>-</mo>
-  <mn>1</mn>
-  </mrow>
-  </msup>
-  <msup>
-  <mi>e</mi>
-  <mrow>
-    <mo>-</mo>
-    <mi>t</mi>
-  </mrow>
-  </msup>
-  <mi>d</mi>
-  <mi>t</mi>
-  <mo>=</mo>
-  </math>
-</h4>
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
@@ -281,7 +249,102 @@
           <h2>Resume</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
-
+        <h4>
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+          
+            <mi mathvariant="normal">&#x393;</mi>
+          <mo stretchy="false">(</mo>
+          <mi>z</mi>
+          <mo stretchy="false">)</mo>
+          <mo>=</mo>
+          <msubsup>
+            <mo data-mjx-texclass="OP">&int;</mo>
+            <mn>0</mn>
+            <mi>&infin;</mi>
+          </msubsup>
+          <msup>
+          <mi>t</mi>
+          <mrow>
+          <mi>z</mi>
+          <mo>-</mo>
+          <mn>1</mn>
+          </mrow>
+          </msup>
+          <msup>
+          <mi>e</mi>
+          <mrow>
+            <mo>-</mo>
+            <mi>t</mi>
+          </mrow>
+          </msup>
+          <mi>d</mi>
+          <mi>t</mi>
+          <mo>=</mo>
+          <mfrac>
+            <mrow>
+              <msup>
+              <mi>e</mi>
+              <mrow>
+                <mo>-</mo>
+                <mi>&#x03b3;</mi>
+                <mi>z</mi>
+              </mrow>
+              </msup>
+            </mrow>
+            <mi>e</mi>
+          </mfrac>
+          <munderover>
+          <mi>&prod;</mi>
+          <mrow>
+            <mi>k</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+          </mrow>
+          <mi>&infin;</mi>
+          </munderover>
+          <mo stretchy="false">(</mo>
+          <mn>1</mn>
+          <mo>+</mo>
+          <mfrac>
+            <mi>z</mi>
+            <mi>k</mi>
+          </mfrac>
+          <msup>
+            <mo stretchy="false">)</mo>
+            <mrow>
+              <mo>-</mo>
+              <mn>1</mn>
+            </mrow>
+          </msup>
+          <msup>
+            <mi>e</mi>
+            <mrow>
+              <mi>z</mi>
+              <mo>/</mo>
+              <mi>k</mi>
+            </mrow>
+          </msup>
+          </math>
+        </h4>
+        <h4>
+        <svg height="150" width="150" class="Phi">
+          <ellipse   cx="75" cy="75" rx="18" ry="30" stroke="red" stroke-width="5" fill-opacity="0"/>
+          <line x1="49" y1="75" x2="101" y2="75" stroke="black" stroke-width="5" stroke-linecap="round"/>
+          <line x1="75" y1="105" x2="75" y2="120" stroke="red" stroke-width="5" stroke-linecap="round"/>
+          <line x1="65" y1="120" x2="85" y2="120" stroke="black" stroke-width="5" stroke-linecap="round"/>
+          <style>
+            .Phi {
+                animation-name: Rotate;
+                animation-duration: 5s;
+                animation-iteration-count: infinite;
+            }
+            @keyframes Rotate {
+                from { transform: rotate(0deg); }
+                to   { transform: rotate(360deg); }
+            }
+            </style>
+        </svg>
+      </h4>
         <div class="row">
           <div class="col-lg-6">
             <h3 class="resume-title">Sumary</h3>
