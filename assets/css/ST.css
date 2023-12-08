@@ -1,0 +1,124 @@
+html {
+    
+    height: 100%;
+    background-image: linear-gradient(144deg,#f3d0a9, #e5a97c 50%,#f99252);
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+p{
+    margin-left: 80px;
+}
+h4 {
+    text-align: center;
+  }
+  .menu {
+    align-items: center;
+  background-image: linear-gradient(144deg,#ffa640, #ce7734 50%,#eb5a00);
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 180px;
+  min-width: 180px;
+  padding: 3px;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  
+  }
+  
+  .mab {
+    position: relative;
+    display: inline-flex;
+  }
+  .list{
+    position:absolute;
+    display:none;
+    top:110%;
+    right:0;
+    
+  
+  }
+  .text{
+    width: 692px;
+  }
+  .picture{
+    margin-top: 80px;
+    /*padding-left: 294px;*/
+  }
+  .container{
+   
+    display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 5px;
+  }
+  .list--visible{
+    display:initial;
+  }
+  .secondary{
+    max-width: 180px;
+  min-width: 180px;
+  
+  
+  background-image: linear-gradient(144deg,#fabd77, #db8e53 50%,#ef8441);
+  }
+  
+  .center {
+    border: 0px solid;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+li{
+  margin-left: 80px;
+}
+.req{
+  line-height: 1;
+}
+.button-64 {
+    margin-left: 78px;
+  align-items: center;
+  background-image: linear-gradient(144deg,#ffa640, #ce7734 50%,#eb5a00);
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  
+}
+.top{
+    margin-top: 20px;
+}
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 8px 16px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+  }
+
+.button-64:hover span {
+  background: none;
+}
+
